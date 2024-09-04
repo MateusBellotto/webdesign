@@ -6,6 +6,43 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Meu Título</h1>
+    <form action=“https://www.w3schools.com/action_page.php”>
+        <input type="date">
+        <fieldset>
+            <legend>Login:</legend>
+
+                <label for="fname">Username:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Data</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address"><br>
+        <label for="number">Number:</label><br>
+        <input type="number" id="number"><br>
+        <label for="comp">Complement:</label><br>
+        <input type="text" id="comp"><br>
+        <label for="Cities">Cities:</label><br>
+        <input list="Cities" name="City"><br>
+        <datalist id="Cities">
+        <option value="Sorocaba"></option>
+        <option value="Laranjal Paulista"></option>
+        <option value="Rio de Janeiro"></option>
+        <option value="Campo Grande"></option>
+        </datalist> 
+        <input type="checkbox" id="São Paulo" name="São Paulo" value="São Paulo"        
+        <label for="zipcode">ZIP Code:</label><br>
+        <input type="number" id="zipcode"><br>
+
+    </fieldset>
+
+        
+    </form>
+
+        
 </body>
 </html>
